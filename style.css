@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  text-align: center;
 }
 .topborder {
   border: 10px double rgba(79, 56, 4, 0.955);
@@ -32,7 +33,7 @@ body {
 }
 
 li {
-  font-size: 28px;
+  font-size: 24.5px;
   font-weight: bold;
   font-style: italic;
   color: rgb(255, 255, 255);
@@ -47,7 +48,6 @@ span {
   font-size: 20px;
   position: relative;
   font-weight: bold;
-  text-decoration: underline;
 }
 .orange {
   color: rgb(255, 189, 108);
@@ -55,7 +55,6 @@ span {
   position: relative;
 }
 .underline {
-  text-decoration: underline;
   font-size: 22px;
   color: gold;
   font-weight: bold;
@@ -115,12 +114,7 @@ a {
 .img::after {
   content: "//";
 }
-a::before {
-  content: ">>";
-}
-a::after {
-  content: "<<";
-}
+
 a::selection {
   background-color: rgb(246, 216, 96);
   color: rgb(111, 186, 226);
@@ -162,8 +156,19 @@ a::selection {
   }
 }
 .UL {
-  text-decoration: underline;
   font-weight: bold;
   color: rgb(248, 255, 182);
   font-size: 18px;
+}
+
+.imgA {
+  width: 100px;
+  height: 100px;
+  border-radius: 15%;
+  transition: 150ms;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.imgA:hover {
+  transform: scale(1.2);
 }
